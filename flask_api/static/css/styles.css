@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    /* Height of the footer*/ 
+    height: 40px;
+    color: rgb(240, 10, 10);
+}
+#mheadings{
+    text-align: center;
+    color:rgb(24, 207, 18);
+}
+img{
+    width: 30vw;
+    height:30vh;
+}

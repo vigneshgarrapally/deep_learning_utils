@@ -1,0 +1,32 @@
+#inference_script_path examples
+#path/to/script.py  (works for both windows and linux)
+#path\\to\\script.py (if windows)
+#Script should have a fuction named predictions(model_path,images_folder)
+
+model:
+  Disease Identification:
+    Apple:
+      model_path: "F:/Vision Box/code/visionary-farm/disease_prediction/apple/best_model.h5"
+      inference_script_path: "inference/inference.py"
+    Tomato:
+      model_path: ""
+      inference_script_path: "inference/inference.py"
+    Cassava:
+      model_path: ""
+      inference_script_path: "inference/inference.py"
+    Corn:
+      model_path: ""
+      inference_script_path: "inference/inference.py"
+    Grape:
+      model_path: ""
+      inference_script_path: "inference/inference.py"
+    Rice:
+      model_path: ""
+      inference_script_path: "inference/inference.py"
+  Bug Detection:
+    IP102:
+      model_path: ""
+      inference_script_path: ""
+
+
+
